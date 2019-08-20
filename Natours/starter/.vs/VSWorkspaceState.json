@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css"
+    "\\css",
+    "\\sass"
   ],
-  "SelectedNode": "\\css\\style.css",
+  "SelectedNode": "\\package.json",
   "PreviewInSolutionExplorer": false
 }
