@@ -35,7 +35,8 @@ body {
 
 .heading-secondary {
 
-    -webkit-background-clip: text;
+    background-clip: text;
+        -webkit-background-clip: text;
     background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
     color: transparent;
     display: inline-block;

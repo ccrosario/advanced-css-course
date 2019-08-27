@@ -12,9 +12,9 @@
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
     &__logo-box {
+        left: 4rem;
         position: absolute;
         top: 4rem;
-        left: 4rem;
     }
 
     &__logo {
@@ -22,9 +22,9 @@
     }
     
     &__text-box {
+        left: 50%;
         position: absolute;
         top: 40%;
-        left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
     }
