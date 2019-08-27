@@ -2,8 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\css",
-    "\\sass"
+    "\\sass",
+    "\\sass\\abstracts",
+    "\\sass\\base",
+    "\\sass\\components",
+    "\\sass\\layout",
+    "\\sass\\pages"
   ],
-  "SelectedNode": "\\package.json",
+  "SelectedNode": "\\sass\\abstracts\\_variables.scss",
   "PreviewInSolutionExplorer": false
 }
