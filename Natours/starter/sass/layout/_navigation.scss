@@ -18,23 +18,32 @@
     &__background {
         background-image: radial-gradient($color-primary-light, $color-primary-dark);
         border-radius: 50%;
+        box-shadow: 0 1rem 3rem rgba($color-black, .1);
         height: 6rem;
         position: fixed;
         right: 6.5rem;
         top: 6.5rem;
+        transition: transform .8s;
         width: 6rem;
         z-index: 1000;
 
-        transform: scale(90);
+        //transform: scale(90);
     }
 
     &__nav {
+        background-color: orangered;
         height: 100vh;
+        left: 0;
         position: fixed;
         right: 0;
         top: 0;
         width: 100%;
         z-index: 1500;
+
+        //animations
+        opacity: 0;
+        transition: all .8s;
+        width: 0;
     }
 
     &__list {
@@ -76,5 +85,14 @@
             color: $color-primary;
             transform: translateX(1rem);
         }
+    }
+
+    &__checkbox:checked ~ &__background {
+        transform: scale(80);
+    }
+
+    &__checkbox:checked ~ &__nav {
+        opacity: 1;
+        width: 100%;
     }
 }
