@@ -2,10 +2,36 @@
     background-color: rgba($color-black, .8);
     height: 100vh;
     left: 0;
+    opacity: 0;
     position: fixed;
     top: 0;
+    visibility: hidden;
     width: 100%;
     z-index: 9999;
+
+    &:target {
+        opacity: 1;
+        transition: all .3s;
+        visibility: visible;
+    }
+
+    &__close {
+        &:link,
+        &:visited {
+            color: $color-grey-dark;
+            display: inline-block;
+            font-size: 3rem;
+            line-height: 1;
+            position: absolute;
+            right: 2.5rem;
+            text-decoration: none;
+            top: 2.5rem;
+        }
+
+        &:hover {
+            color: $color-primary;
+        }
+    }
 
     &__content {
             @include absCenter;
