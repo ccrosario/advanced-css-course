@@ -7,10 +7,18 @@
     text-align: center;
     transition: transform .3s;
 
+    @include respond(tab-port) {
+        padding: 2rem;
+    }
+
     &__icon {
         display: inline-block;
         font-size: 6rem;
         margin-bottom: .5rem;
+
+        @include respond(tab-port) {
+            margin-bottom: 0;
+        }
     }
 
     &:hover {
