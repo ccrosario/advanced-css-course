@@ -18,5 +18,8 @@
   "homepage": "https://github.com/ccrosario/advanced-css-course#readme",
   "devDependencies": {
     "node-sass": "^4.12.0"
+  },
+  "dependencies": {
+    "dependencies": "0.0.1"
   }
 }
